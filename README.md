@@ -70,3 +70,71 @@ Measured performance using:
 
 ### 8. Inference
 Tested model on custom inputs:
+   "This phone is amazing" → Positive
+  "Worst product ever" → Negative
+
+---
+
+## 🏗️ System Architecture
+User Input (Text)
+↓
+Preprocessing
+↓
+Tokenization (DistilBERT)
+↓
+DistilBERT Model (Fine-Tuned)
+↓
+Classification Layer
+↓
+Sentiment Output (Positive / Negative)
+
+
+---
+
+## 📈 Results
+- Model successfully classifies sentiment  
+- Achieved good accuracy with small dataset  
+- Demonstrates effectiveness of transfer learning  
+
+---
+
+## 🧠 Key Concepts
+- Natural Language Processing (NLP)  
+- Transfer Learning  
+- Transformers  
+- Tokenization  
+- Fine-Tuning  
+
+---
+
+## ⚠️ Challenges
+- Small dataset size  
+- Initial labeling issues  
+- Slow training on CPU  
+
+---
+
+## ✅ Solutions
+- Used pre-trained model  
+- Corrected label mapping  
+- Used Google Colab (GPU support)  
+
+---
+
+## 🚀 Future Improvements
+- Use larger dataset  
+- Add neutral sentiment class  
+- Improve accuracy with tuning  
+- Deploy as API  
+
+---
+
+## 📌 Conclusion
+This project shows how a pre-trained transformer like DistilBERT can be fine-tuned on a small dataset to perform sentiment analysis effectively.
+
+---
+
+## 📎 Deliverables
+- Google Colab Notebook  
+- Working sentiment classification model  
+  
