@@ -77,23 +77,16 @@ Tested model on custom inputs:
 
 ## 🏗️ System Architecture
 
-User Input (Text)
-↓
-Preprocessing
-↓
-
-Tokenization (DistilBERT)
-
-↓
-
-DistilBERT Model (Fine-Tuned)
-
-↓
-
-Classification Layer
-
-↓
-
+User Input (Text)  
+↓  
+Preprocessing  
+↓  
+Tokenization (DistilBERT)  
+↓  
+DistilBERT Model (Fine-Tuned)  
+↓  
+Classification Layer  
+↓  
 Sentiment Output (Positive / Negative)
 
 
