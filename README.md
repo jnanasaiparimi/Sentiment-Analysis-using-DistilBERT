@@ -5,6 +5,11 @@ This project builds a sentiment analysis model to classify customer product revi
 
 ---
 
+## 🚀 Live Demo
+
+👉 [Open Sentiment Analyzer](https://jnanasai-sentiment-analyzer.hf.space/?logs=container&__theme=system&deep_link=irbwDh-v9Xs) 
+---
+
 ## ❗ Problem Statement
 A consumer electronics company needs an automated system to analyze customer reviews. Manual analysis is slow and inefficient, so this project uses NLP to classify sentiment automatically.
 
